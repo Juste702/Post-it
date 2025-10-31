@@ -65,8 +65,8 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import { useNotesStore } from './stores/notes'
-import Note from './components/Note.vue'
-import Notes from './components/Notes.vue'
+import Note from './components/NoteItem.vue'
+import Notes from './components/NotesItem.vue'
 
 const store = useNotesStore()
 onMounted(() => store.fetchNotes())

@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Notes from '../components/Notes.vue'
-import Note from '../components/Note.vue'
+import Notes from '../components/NotesItem.vue'
+import Note from '../components/NoteItem.vue'
 
 const routes = [
   { path: '/', component: Notes },
